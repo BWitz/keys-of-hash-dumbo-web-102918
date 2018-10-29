@@ -1,9 +1,8 @@
 class Hash
   def keys_of(*arguments)
-    ans = []
+    array = []
     self.each do |animal, loc|
       if arguments.include?(loc)
-
         ans.push(animal) 
       end
     end
